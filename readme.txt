@@ -1,22 +1,22 @@
 === TableOfContent ===
 Contributors: Opticalworm
-Tags: Post, content, table of content, widget
+Tags: Post, page, content, table of content, widget
 Requires at least: 3.0.1
 Tested up to: 3.0.1
 Stable tag: trunk
 License: GPLv2
 
-This plugin is an easy way to add table of content to your post directly or as a widget.
+This plugin is an easy way to add table of content to your post/page directly or as a widget.
 
 == Description ==
 
-This plugin is an easy way to add table of content to your post directly or as a widget. It will parser the content of your post for HTML headers and generate a list of links.
-This plugin will require some CSS understanding to match your site and the know how for adding custom fields in your post.
+This plugin is an easy way to add table of content to your post/page directly or as a widget. It will parser the content of your post/page for HTML headers and generate a list of links.
+This plugin will require some CSS understanding to match your site and the know how for adding custom fields in your post/page.
 
 = Features =
 * Easy to style
 * Widget
-* Display table of content anywhere in your post content
+* Display table of content anywhere in your post/page content
 * Can set which html h1 to parse
 * Can set your own title
 
@@ -25,19 +25,19 @@ This plugin will require some CSS understanding to match your site and the know 
 If you have the plugin already activated please skip steps 1,2. 
 
 * If you want to display your TOC as a widget then follow step 1 to 10
-* Or if you want to display your TOC inside your post then follow step 1-2 and 5-11
+* Or if you want to display your TOC inside your post/page then follow step 1-2 and 5-11
 
 1. Upload TableOfContent.php to /wp-content/plugins/
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 3. Go to the widgets menu
 4. Drag TB_Widget into the widget area you would like your table of content to appear
-5. Create or Edit a post `[post editor]`
+5. Create or Edit a post/page `[post/page editor]`
 6. Inside Custom fields Under Name insert "Tb_Title" `[capital sensitive]` 
 7. and in value insert your table title. For example "Table of Content"
 8. Click on Add Custom Fields
 9. Similar the last two steps insert "Tb_Headers" for name
 10. and in value insert the header numbers with comma separation. this numbers informs the plugin as to which html header `<h1>` you would like to include in your table of content. `For example: if you want your table of content to display links to <h1>, <h2> and <h3> then write "1,2,3"`
-11. Insert this tag `<!--PutTableHere-->` inside your post content under HTML input `[Please be aware that where ever you put this tag will be where the table appears to your readers]`
+11. Insert this tag `<!--PutTableHere-->` inside your post/page content under HTML input `[Please be aware that where ever you put this tag will be where the table appears to your readers]`
 
 = CSS style =
 By default the plugin provides no CSS styling and assumes the user will write its own. However, if you’re using the default theme 'twentyten' I've provide example code bellow that you can use. 
@@ -126,7 +126,11 @@ Visit my homepage
 
 == Changelog ==
 
-Visit my homepage
+1.0 
+- Initial release
+
+1.0.1
+- Added page support
 
 == Upgrade Notice ==
 
