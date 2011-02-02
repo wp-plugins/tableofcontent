@@ -132,6 +132,9 @@ Visit my homepage
 1.0.1
 - Added page support
 
+1.0.2
+- Fix page bug
+
 == Upgrade Notice ==
 
 Visit my homepage

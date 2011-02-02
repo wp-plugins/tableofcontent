@@ -3,7 +3,7 @@
 Plugin Name: TableOfContent
 Plugin URI: http://www.hashdefineelectronics.com/?p=168
 Description: Plugin that can be used to displayed a table of content of your post/page as widget or inside your post. Please visit my homepage for more detail on using this plugin.
-Version: 1.0.1
+Version: 1.0.2
 Author: Opticalworm, Ronald sousa
 Author URI: http://www.hashdefineelectronics.com/
 */
@@ -46,7 +46,7 @@ function TB_ContentFilter($content){
 	// Get Table Title
 	$Tb_Title = get_post_custom_values('Tb_Title');
 	// If variable exist then display table of content
-	if( $Tb_Title & is_single())
+	if( $Tb_Title & (is_single() | is_page()))
 	{	// Get table filter parameter, if not found then search for our default
 		$Tb_Headers = get_post_custom_values('Tb_Headers');
 		
