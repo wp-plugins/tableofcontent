@@ -1,8 +1,8 @@
 === TableOfContent ===
 Contributors: Opticalworm
-Tags: Post, page, content, table of content, widget
-Requires at least: 3.0.1
-Tested up to: 3.0.1
+Tags: post, page, content, table of content, widget, table, content, toc, TOC
+Requires at least: 3.0.0
+Tested up to: 3.1
 Stable tag: trunk
 License: GPLv2
 

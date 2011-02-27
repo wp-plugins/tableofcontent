@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: TableOfContent
-Plugin URI: http://www.hashdefineelectronics.com/?p=168
+Plugin URI: http://hashdefineelectronics.com/2011/table-of-content-plugin/
 Description: Plugin that can be used to displayed a table of content of your post/page as widget or inside your post. Please visit my homepage for more detail on using this plugin.
 Version: 1.0.2
 Author: Opticalworm, Ronald sousa
