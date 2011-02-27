@@ -20,6 +20,8 @@ This plugin will require some CSS understanding to match your site and the know 
 * Can set which html h1 to parse
 * Can set your own title
 
+[Plugin Page]: http://hashdefineelectronics.com/2011/table-of-content-plugin/ "This is the Plugin page where more information can be found"
+[Plugin Page]
 == Installation ==
 
 If you have the plugin already activated please skip steps 1,2. 
@@ -40,12 +42,13 @@ If you have the plugin already activated please skip steps 1,2.
 11. Insert this tag `<!--PutTableHere-->` inside your post/page content under HTML input `[Please be aware that where ever you put this tag will be where the table appears to your readers]`
 
 = CSS style =
-By default the plugin provides no CSS styling and assumes the user will write its own. However, if you’re using the default theme 'twentyten' I've provide example code bellow that you can use. 
-For more detail example of the id/class used by this plugin visit my homepage.
+[Plugin Page]: http://hashdefineelectronics.com/2011/table-of-content-plugin/ "This is the Plugin page where more information can be found"
+By default the plugin provides no CSS styling and assumes the user will write its own. However, if you're using the default theme 'twentyten' I've provide example code, See bellow, that you can use. 
+For more detail and example of the id/class used by this plugin visit the my [Plugin Page].
 
 To use this Code, Add it at the bottom of your theme style.css
 
-= CSS Start =
+= CSS Example =
 `
 #TBC_ContainerTitle,
 #TBW_ContainerTitle{
@@ -113,12 +116,11 @@ margin-left:40px;
 margin-left:50px;
 }
 `
-= CSS End =
 
 == Frequently Asked Questions ==
 
-Visit my homepage
-
+[Plugin Page]: http://hashdefineelectronics.com/2011/table-of-content-plugin/ "This is the Plugin page where more information can be found"
+[Plugin Page]
 == Screenshots ==
 
 1. Page Example
